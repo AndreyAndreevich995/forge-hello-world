@@ -1,0 +1,13 @@
+modules:
+  jira:issuePanel:
+    - key: hello-app-hello-world-panel
+      function: main
+      title: Forge app for Andrey Berezin
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  runtime:
+    name: nodejs22.x
+  id: ari:cloud:ecosystem::app/d40fb255-d7d8-4d4e-ba7c-9518e9f1d786
